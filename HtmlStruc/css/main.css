@@ -1,0 +1,31 @@
+#bl-second {
+  height: 400px;
+  width: 100%;
+  background-color: blueviolet;
+  display: flex;
+}
+#bl-second .child-1 {
+  display: inline-block;
+  background-color: #888888;
+  width: 100px;
+  height: 100px;
+}
+#bl-second .child-2 {
+  display: inline-block;
+  background: #555555;
+  width: 100px;
+  height: 100px;
+}
+
+#bl-second .child-3 {
+  display: inline-block;
+  background: #883254;
+  width: 100px;
+  height: 100px;
+}
+#bl-second .child-4 {
+  display: inline-block;
+  background: #288817;
+  width: 100px;
+  height: 100px;
+}

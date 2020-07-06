@@ -1,0 +1,135 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>T3h Html Struc</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+</head>
+
+<body>
+  <header>
+    <div id="header-top">
+      <div class="logo">
+        <img src="img/logo.png" alt="logo t3h" />
+      </div>
+      <div class="menu">
+        <ul>
+          <li> Lĩnh vực
+            <ul>
+              <li><a href="mailto:long.huu.100@gmail.com" target="_blank"> Nha hang </a> </li>
+              <li> kinh doanh </li>
+            </ul>
+          </li>
+          <li>Thiết kế</li>
+        </ul>
+      </div>
+    </div>
+    <div id="header-bottom">
+      <h3>Header Boottom</h3>
+    </div>
+  </header>
+  <div id="body-content">
+    <div id="break-column">
+      <p>Break column</p>
+    </div>
+    <!-- CONTENT FIRST -->
+    <div id="content-first">
+      <div class="content-first-left">
+        <p>content-first-left</p>
+      </div>
+      <div class="content-first-right">
+        <div class="first-right-left">
+          <div class="c-first-right-top">
+            <p>c-first-right-top</p>
+          </div>
+          <div class="c-first-right-bottom">
+            <p>c-first-right-bottom</p>
+          </div>
+        </div>
+        <div class="first-right-right">
+          <p>first-right-right</p>
+        </div>
+      </div>
+    </div>
+    <!-- END CONTENT FIRST -->
+
+    <!-- CONTENT SECOND -->
+    <div id="content-second">
+      <div class="c-second-intro">
+        <h3>This is h3</h3>
+        <p>This is p</p>
+        <u>This is u</u>
+        <i>This is i</i>
+      </div>
+      <div class="c-second-body">
+        <div class="cot">
+
+        </div>
+        <div class="cot">
+
+        </div>
+        <div class="cot">
+
+        </div>
+      </div>
+    </div>
+    <!-- END CONTENT SECOND -->
+    <div id="create-table">
+      <table>
+        <thead>
+          <th>Cot 1</th>
+          <th>Cot 2</th>
+          <th>Cot 3</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Du lieu cot 1</td>
+            <td>Du lieu cot 2</td>
+            <td>Du lieu cot 3</td>
+          </tr>
+        <tr>
+          <td colspan="2">Du lieu cot 21</td>
+          <td>Du lieu cot 23</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Form -->
+    <form id="form-mail" method="post" action="http://abc.vn/input-mail">
+      <label>Nhap Email</label>
+      <input name="Email" type="email" required>
+      <textarea rows="5" placeholder="Nhap mo ta">
+
+      </textarea>
+      <label>Có submit</label>
+      <input type="checkbox" name="Co_Sub" title="Sub">
+      <label>Ko submit</label>
+      <input type="checkbox" name="Ko_Sub" title="NoSub">
+
+        <Select>
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+        </Select>
+      <label>Radio</label>
+      <input type="radio" name="rs1">
+      <input type="radio" name="rs2">
+      <label>Tai file cua ban</label>
+      <input type="file">
+      <button type="submit">Gui Email</button>
+    </form>
+  </div>
+</body>
+
+</html>
