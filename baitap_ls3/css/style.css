@@ -1,0 +1,91 @@
+
+
+.tab_wrapper {
+  margin: 33px 0 25px;
+  display: inline-block;
+  width: 100%;
+  position: relative;
+}
+.tab_wrapper * {
+  box-sizing: border-box;
+}
+.tab_wrapper > ul {
+  clear: both;
+  display: inline-block;
+  width: 100%;
+      margin: 0px -35px 0px;
+
+}
+.tab_wrapper > ul li {
+    float: left;
+    cursor: pointer;
+    list-style: none;
+    padding: 8px 9px;
+    text-transform: uppercase;
+    font-size: 12px;
+    position: relative;
+    color: #000;
+    margin: 0 5px 0 0;
+}
+.tab_wrapper > ul li.active {
+  border-bottom: 3px solid #2dbeb3;
+  color: #000;
+  font-weight: 700;
+}
+.tab_wrapper > ul li.active:after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  height: 1px;
+  left: 0;
+  background: #fff;
+  width: 100%;
+}
+.tab_wrapper .controller {
+  display: block;
+  overflow: hidden;
+  clear: both;
+  position: absolute;
+  top: 0;
+  right: 202px;
+}
+.tab_wrapper .controller span {
+  padding: 8px 5px;
+  font-family: TUV-Montserrat-Bold;
+  color: #000;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.tab_wrapper .controller span.next {
+  float: right;
+
+}
+.tab_wrapper .content_wrapper {
+  float: left;
+  width: 100%;
+  border-top: 0;
+  box-sizing: border-box;
+}
+.tab_wrapper .content_wrapper .tab_content {
+  display: none;
+  padding: 15px 0px;
+}
+.tab_wrapper .content_wrapper .tab_content .product-pri{
+	width:20%; float: left;
+  margin-bottom: 20px;
+}
+
+.tab_wrapper .content_wrapper .accordian_header {
+  display: none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #fff;
+  position: relative;
+  cursor: pointer;
+}
+
+
