@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Bai tap html</title>
+    <!-- Meta -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/icon/fabi.png"/>
+    <link rel="bookmark" href="img/icon/fabi.png"/>
+    <!-- CSS-->
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="libs/font-awesome/css/fontawesome-all.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/desgin.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/reposive.css"/>
+    <![endif]-->
+</head>
+<body>
+<div id="siteContainer">
+    <header id="siteHeader" class="site-header fix-on-top">
+        <div class="sh_main-menu cd-auto-hide-header">
+            <div class="container">
+                <div class="sh_main-menu_wrapper">
+                    <div class="col-md-2 col-xs-2">
+                        <h1 class="sh_logo">
+                            <a href="#">
+                                <span>printgo</span>
+                                <img src="img/logo.jpg" alt="sitename-logo">
+                            </a>
+                        </h1>
+                    </div>
+                    <div class="col-md-10 col-sm-10 collapse navbar-collapse" id="siteHeaderNavbarCollapse">
+                        <div class="col-md-5 hotline-pl hotline-tt">
+                            <div class="clearfix">
+                                <div class="hot-desk">
+                                    <ul class="action-menu-list">
+                                        <li>
+                                            <a href="" id="" class="btn ht-btn-green btn-rounded fw-400 has-animated-effect"><i
+                                            class="fa fa-phone"></i> 0985.554.375
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hot-mobi">
+                        <a href="#" class="cart-group">
+                            <i class="fa fa-phone"></i> 0902.486.865
+                        </a>
+                    </div>
+                    <div class="sh_toggle-btn">
+                        <button class="sh_main-navbar_toggle navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#siteHeaderNavbarCollapse" aria-expanded="false"><i
+                                class="ion-navicon"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-category">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9 col-sm-8 col-xs-6">
+                        <div class="bar-mid">
+                            <div class="search-tab">
+                                <div class="search-form header_search">
+                                    <form class="input-group search-bar" action="/search" method="get" role="search">
+                                        <input type="search" name="query"
+                                               class="input-group-field st-default-search-input search-text"
+                                               id="search_text" placeholder="Tìm kiếm sản phẩm, Mã đơn hàng...."
+                                               autocomplete="off" required="">
+                                        <button type="submit" id="search_button"><i class="fa fa-search"></i> <span
+                                                class="ser-text">Tìm kiếm</span></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="siteContent">
+        <div class="container">
+            <ul class="ht-breadcrumb">
+                <li><a href="#">Trang chủ</a></li>
+                <li class="active">Danh mục sản phẩm</li>
+            </ul>
+        </div>
+        <div class="container ht-mgt16">
+            <div class="check-out-section">
+                <h2 class="pl-title text-uppercase with-bb">thanh toán</h2>
+                <form action="#">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-4">
+                            <div class="ht-card">
+                                <div class="row">
+                                    <h3 class="title-xs4-pay"><img src="img/icon/6.1_07.png"> địa chỉ nhận hàng</h3>
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Họ tên" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="emal" placeholder="Email" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Số điện thoại" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="form-group">
+                                            <select class="form-control">
+                                                <option selected="" disabled="">Tỉnh/ Thành phố</option>
+                                                <option>Hà Nội</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="form-group">
+                                            <select class="form-control">
+                                                <option selected="" disabled="">Phường/ Xã</option>
+                                                <option>Di Trạch</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Tòa nhà, tên đường" class="form-control">
+                                    </div>
+                                    <div class="maxh-240 ht-styled-scroll ovf-y-auto mt-12">
+                                        <ul class="sidebar-cat-selecting-list">
+                                            <li>
+                                                <label>
+                                                    <input type="checkbox" class="cat-select-type">
+                                                    <i class="cat-select-icon ion-android-checkbox-outline-blank"></i>
+                                                    <span class="cat-select-label">Đặt địa chỉ làm mặc định</span>
+                                                </label>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <button class="btn ht-btn-primary btn-block btn-radius">Hoàn thành</button>
+                                </div>
+                            </div>
+                            <div class="ht-card">
+                                <h3 class="title-xs4-pay"><img src="img/icon/6.1_13.png"> thông tin thanh toán</h3>
+                                <div class="maxh-240">
+                                    <ul class="sidebar-cat-selecting-list">
+                                        <li>
+                                            <label>
+                                                <input type="checkbox" class="cat-select-type">
+                                                <i class="cat-select-icon ion-android-checkbox-outline-blank"></i>
+                                                <span class="cat-select-label">Như thông tin giao hàng <a href="#"><img
+                                                        src="img/icon/6.1_16.png"></a></span>
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Họ tên" class="form-control background-input">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Tên doanh nghiệp"
+                                               class="form-control background-input">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Mã số thuế"
+                                               class="form-control background-input">
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="form-group">
+                                            <select class="form-control background-input">
+                                                <option selected="" disabled="">Tỉnh/ Thành phố</option>
+                                                <option>Hà Nội</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="form-group">
+                                            <select class="form-control background-input">
+                                                <option selected="" disabled="">Phường/ Xã</option>
+                                                <option>Di Trạch</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Tòa nhà, tên đường"
+                                               class="form-control background-input">
+                                    </div>
+                                    <button class="btn btn-block btn-radius black">Hoàn thành</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-8" id="tabs-right">
+                            <h2 class="pl-titlepay"><span><img src="img/icon/6.1_09.png"></span> Phương thức thanh toán
+                            </h2>
+                            <div class="panel with-nav-tabs panel-default">
+                                <div class="panel-heading">
+                                    <ul class="nav nav-tabs">
+                                        <li class="active"><a href="#tab1default" data-toggle="tab">Thẻ ATM nội địa
+                                            (Internet Banking)</a></li>
+                                        <li><a href="#tab2default" data-toggle="tab">Thanh toán khi nhận hàng</a></li>
+                                        <li><a href="#tab3default" data-toggle="tab">Thẻ tín dụng/Ghi nợ</a></li>
+                                    </ul>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="tab-content">
+                                        <div class="tab-pane fade in active" id="tab1default">
+                                            <div class="col-xs-12">
+                                                <h3>Bạn cần có:</h3>
+                                                <p class="text-tabs">1. Thẻ ATM</p>
+                                                <p class="text-tabs">2. Đã đăng ký dịch vụ THANH TOÁN TRỰC TUYẾN và /
+                                                    hoặc NGÂN HÀNG ĐIỆN TỬ (Internet Banking)</p>
+                                                <p class="text-tabs">3. Số dư tài khoản PHẢI LỚN HƠN tổng giá trị đơn
+                                                    hàng</p>
+                                                <hr>
+                                            </div>
+                                            <div class="col-xs-12">
+                                                <div class="pay-amt">
+                                                    <div class="row ht-mgb8">
+                                                        <div class="col-xs-6 ht-fz12 ht-mgt4">Tổng tiền hàng</div>
+                                                        <div class="col-xs-6 text-right"><b>₫120.000</b></div>
+                                                    </div>
+                                                    <div class="row ht-mgb8">
+                                                        <div class="col-xs-6 ht-fz12 ht-mgt4">Phí vận chuyển</div>
+                                                        <div class="col-xs-6 text-right"><b>₫12.000</b></div>
+                                                    </div>
+                                                    <div class="row ht-mgb8">
+                                                        <div class="col-xs-6 ht-fz12 ht-mgt4">Tổng tiền hàng( 2 sản
+                                                            phẩm)
+                                                        </div>
+                                                        <div class="col-xs-6 text-right orage"><b>₫2.000.000</b></div>
+                                                    </div>
+                                                    <div class="maxh-240 pl-check-pay ovf-y-auto mt-12">
+                                                        <ul class="sidebar-cat-selecting-list">
+                                                            <li>
+                                                                <label>
+                                                                    <input type="checkbox" class="cat-select-type">
+                                                                    <i class="cat-select-icon ion-android-checkbox-outline-blank"></i>
+                                                                    <span class="cat-select-label">Yêu cầu xuất hóa đơn đỏ</span>
+                                                                </label>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <button class="btn-printnow btn btn-block">
+                                                        <img src="img/icon-cate/6.1_07.png"> Tiến hành thanh toán
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="tab2default">
+                                            <div class="col-xs-12">
+                                                <p class="text-tabs">Bạn có thể thanh toán bằng tiền mặt khi nhận hàng
+                                                    tại nhà, Sau khi đặt hàng thành công, nhân viên chúng
+                                                    tôi sẽ liên hệ với bạn</p>
+                                                <hr>
+                                            </div>
+                                            <div class="col-xs-12">
+                                                <div class="pay-amt">
+                                                    <div class="row ht-mgb8">
+                                                        <div class="col-xs-6 ht-fz12 ht-mgt4">Tổng tiền hàng</div>
+                                                        <div class="col-xs-6 text-right"><b>₫120.000</b></div>
+                                                    </div>
+                                                    <div class="row ht-mgb8">
+                                                        <div class="col-xs-6 ht-fz12 ht-mgt4">Phí vận chuyển</div>
+                                                        <div class="col-xs-6 text-right"><b>₫12.000</b></div>
+                                                    </div>
+                                                    <div class="row ht-mgb8">
+                                                        <div class="col-xs-6 ht-fz12 ht-mgt4">Tổng tiền hàng( 2 sản
+                                                            phẩm)
+                                                        </div>
+                                                        <div class="col-xs-6 text-right orage"><b>₫2.000.000</b></div>
+                                                    </div>
+                                                    <div class="maxh-240 pl-check-pay ovf-y-auto mt-12">
+                                                        <ul class="sidebar-cat-selecting-list">
+                                                            <li>
+                                                                <label>
+                                                                    <input type="checkbox" class="cat-select-type">
+                                                                    <i class="cat-select-icon ion-android-checkbox-outline-blank"></i>
+                                                                    <span class="cat-select-label">Yêu cầu xuất hóa đơn đỏ</span>
+                                                                </label>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <button class="btn-printnow btn btn-block">
+                                                        <img src="img/icon-cate/6.1_07.png"> Tiến hành thanh toán
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="tab3default">
+                                            <div class="col-xs-12">
+                                                <div class="tabs-left3">
+                                                    <div class="p-type">
+                                                        <div class="group-type-select">
+                                                            <label class="single-option">
+                                                                <input type="radio" class="hidden" name="demoRadio01" checked="">
+                                                                <span class="option-thumb"
+                                                                      style="background: url(img/1.1_25.png) no-repeat;background-position: center;">
+																	<i class="fa fa-check"></i>
+																</span>
+                                                            </label>
+                                                            <label class="single-option">
+                                                                <input type="radio" class="hidden" name="demoRadio01">
+                                                                <span class="option-thumb"
+                                                                      style="    background: url(img/6.1_07.png) no-repeat;background-position: center;">
+															<i class="fa fa-check"></i>
+														</span>
+                                                            </label>
+                                                            <label class="single-option">
+                                                                <input type="radio" class="hidden" name="demoRadio01">
+                                                                <span class="option-thumb"
+                                                                      style="    background: url(img/1.1_29.jpg) no-repeat;background-position: center;">
+															<i class="fa fa-check"></i>
+														</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label>Số thẻ</label>
+                                                        <input type="number" class="form-control">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label>Tên trên thẻ</label>
+                                                        <input type="text" class="form-control">
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-6">
+                                                            <div class="form-group">
+                                                                <label>Ngày hết hạn</label>
+                                                                <input type="text" class="form-control">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xs-6">
+                                                            <div class="form-group">
+                                                                <label>CCV <a href="#"><img
+                                                                        src="img/icon/6.1_16.png"></a></label>
+                                                                <input type="text" class="form-control">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="maxh-240 ht-styled-scroll ovf-y-auto mt-12">
+                                                        <ul class="sidebar-cat-selecting-list">
+                                                            <li>
+                                                                <label>
+                                                                    <input type="checkbox" class="cat-select-type">
+                                                                    <i class="cat-select-icon ion-android-checkbox-outline-blank"></i>
+                                                                    <span class="cat-select-label">Đặt địa chỉ làm mặc định</span>
+                                                                    <p class="time-sm">Thông tin được mã hóa và lưu trữ
+                                                                        an toàn.</p>
+                                                                </label>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12">
+                                                <hr>
+                                                <div class="pay-amt">
+                                                    <div class="row ht-mgb8">
+                                                        <div class="col-xs-6 ht-fz12 ht-mgt4">Tổng tiền hàng</div>
+                                                        <div class="col-xs-6 text-right"><b>₫120.000</b></div>
+                                                    </div>
+                                                    <div class="row ht-mgb8">
+                                                        <div class="col-xs-6 ht-fz12 ht-mgt4">Phí vận chuyển</div>
+                                                        <div class="col-xs-6 text-right"><b>₫12.000</b></div>
+                                                    </div>
+                                                    <div class="row ht-mgb8">
+                                                        <div class="col-xs-6 ht-fz12 ht-mgt4">Tổng tiền hàng( 2 sản
+                                                            phẩm)
+                                                        </div>
+                                                        <div class="col-xs-6 text-right orage"><b>₫2.000.000</b></div>
+                                                    </div>
+                                                    <div class="maxh-240 pl-check-pay ovf-y-auto mt-12">
+                                                        <ul class="sidebar-cat-selecting-list">
+                                                            <li>
+                                                                <label>
+                                                                    <input type="checkbox" class="cat-select-type">
+                                                                    <i class="cat-select-icon ion-android-checkbox-outline-blank"></i>
+                                                                    <span class="cat-select-label">Yêu cầu xuất hóa đơn đỏ</span>
+                                                                </label>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <button class="btn-printnow btn btn-block">
+                                                        <img src="img/icon-cate/6.1_07.png"> Tiến hành thanh toán
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="siteFooter">
+    <section class="footer-promotion">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-3  col-xs-12">
+                    <div class="single-policy clearfix">
+                        <img src="img/icon/icon-x1.png">
+                        <div class="policy-descr">
+                            <h4 class="item-title">In ấn</h4>
+                            <div class="item-descr">Mọi lúc, mọi nơi</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="single-policy clearfix">
+                        <img src="img/icon/icon-x2.png">
+                        <div class="policy-descr">
+                            <h4 class="item-title">Chi phí</h4>
+                            <div class="item-descr">Cạnh tranh nhất</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="single-policy clearfix">
+                        <img src="img/icon/icon-x3.png">
+                        <div class="policy-descr">
+                            <h4 class="item-title">Thiết kế</h4>
+                            <div class="item-descr">Kho thư viện phong phú</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="single-policy clearfix">
+                        <img src="img/icon/icon-x4.png">
+                        <div class="policy-descr">
+                            <h4 class="item-title">Chất lượng</h4>
+                            <div class="item-descr">Luôn luôn đảm bảo</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer-pri">
+        <section class="footer-main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-xs-12">
+                        <div class="news-letter-area  mb-70">
+                            <div class="section-title text-center" title="Đăng ký nhận tin">
+                                <h2>đăng ký email nhận ngay khuyến mãi <span class="gold2">300.000 VNĐ</span></h2>
+                            </div>
+                            <div class="news-latter-box">
+                                <p>Nhập địa chỉ email của bạn để nhận được tin tức mới nhất</p>
+                                <div class="news-letter-form text-center">
+                                    <form action="" method="post" id="mc-embedded-subscribe-form"
+                                          name="mc-embedded-subscribe-form" target="_blank">
+                                        <div id="mc_embed_signup_scroll">
+                                            <div id="mc-form" class="mc-form subscribe-form">
+                                                <input id="mail" type="email" autocomplete="off" name="EMAIL"
+                                                       placeholder="Email của bạn..." required="">
+                                                <button id="mc-submit" type="submit"><img src="img/icon/1.1_14.jpg">
+                                                    <span class="dk-btn">Đăng kí</span></button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 bt-for">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6 col-xs-12 footer-lastchild">
+                                <div class="f-nav-wrap">
+                                    <div class="f-nav-title ht-title text-uppercase">Chăm sóc khách hàng</div>
+                                    <ul class="f-nav-list list-unstyled">
+                                        <li><a href="#">Hotline:<span class="gold"> 0902 186 865</span></a></li>
+                                        <li><a href="#">Email:<span class="green"> contact@printgo.vn</span></a></li>
+                                        <li><a href="#">Hướng dẫn in ấn</a></li>
+                                        <li><a href="#">Hướng dẫn thanh toán</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12 footer-lastchild">
+                                <div class="f-nav-wrap">
+                                    <div class="f-nav-title ht-title text-uppercase">Về PrintGo</div>
+                                    <ul class="f-nav-list list-unstyled">
+                                        <li><a href="#">Giới thiệu PrintGo</a></li>
+                                        <li><a href="#">Chính sách bản quyền</a></li>
+                                        <li><a href="#">Bảo mật thông tin</a></li>
+                                        <li><a href="#">Tuyển dụng</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12 footer-lastchild">
+                                <div class="f-nav-wrap">
+                                    <div class="f-nav-title ht-title text-uppercase">Đối tác</div>
+                                    <ul class="f-nav-list list-unstyled">
+                                        <li><a href="#">Thanh toán</a>
+                                            <ul class="pay">
+                                                <li><a href="#"><img src="img/1.1_25.png"></a></li>
+                                                <li><a href="#"><img src="img/icon/1.1_41.jpg"></a></li>
+                                                <li><a href="#"><img src="img/icon/1.1_43.jpg"></a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Vận chuyển</a>
+                                            <ul class="pay">
+                                                <li><a href="#"><img src="img/1.1_39.jpg"></a></li>
+                                                <li><a href="#"><img src="img/1.1_14.jpg"></a></li>
+                                                <li><a href="#"><img src="img/1.1_43.jpg"></a></li>
+                                            </ul>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12 footer-lastchild">
+                                <div class="f-nav-wrap ">
+                                    <div class="f-nav-title ht-title text-uppercase">theo dõi printgo</div>
+                                    <ul class="f-nav-list list-unstyled">
+                                        <li><a href="#"><img src="img/1.1_22.jpg"></a></li>
+                                        <li><a href="#"><img src="img/1.1_32.jpg"></a></li>
+                                        <li><a href="#"><img src="img/1.1_37.jpg"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="about-content">
+                        <p>In Bìa Đựng Hồ Sơ | In Folders | In Danh Thiếp | In Namecards | In Giấy Tiêu Đề | In
+                            Letterheads | In Bao Thư | In Envelopes | In Tờ Gấp | In Leaflets, Brochures | In Áp Phích |
+                            In Poster PP | In Tờ Rơi | In Flyers | In Cẩm Nang | In Catalogues | In Phiếu Quà Tặng | In
+                            Gift Vouchers | In Hộp Giấy | In Paper Box | In Túi Giấy | In Paper Bags | In Nhãn Decal |
+                            In Decal Label | IGift Vouchers | In Hộp Giấy | In Paper Box</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="f-copyright text-center">
+            Copyright © Công ty TNHH <span style="text-transform: uppercase;" class="green">printg<span
+                class="gold">o</span>
+				</span> Việt Nam . All Rights Reserved.
+        </div>
+    </section>
+</div>
+</body>
+</html>
