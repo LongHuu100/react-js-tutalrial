@@ -1,0 +1,21 @@
+#siteHeader .logo img {
+    width: 150px;
+    height: 70px;
+    padding: 10px;
+}
+.menu-ul {
+    list-style: none;
+    float: left;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding-left: 0px;
+}
+.menu-ul li {
+    padding-left: 10px;
+}
+
+.menu-ul li a {
+    color: black;
+    font-weight: 400;
+}

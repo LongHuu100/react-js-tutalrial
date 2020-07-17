@@ -1,0 +1,29 @@
+[
+    {
+        "image": "https://cdn.printgo.vn/uploads/products/760080/400x400.to-roi-FIK-FL-4165494_1558211995.jpg",
+        "name": "Tờ rơi / Flyer FIK-FL 4165494",
+        "provider": "FIK",
+        "view": "300",
+        "like": "30",
+        "price": "200",
+        "unit": "Tờ"
+    },
+    {
+        "image": "https://cdn.printgo.vn/uploads/products/776829/400x400.hop-giay-dung-2-banh-tung-thu-CTP-PB-010005-4_1591436185.jpg",
+        "name": "Hộp giấy đựng 2 bánh trung thu",
+        "provider": "ACS",
+        "view": "120",
+        "like": "40",
+        "price": "500",
+        "unit": "Hộp"
+    },
+    {
+        "image": "https://cdn.printgo.vn/uploads/products/765269/400x400.PBP-PB-000041_1568000070.jpg",
+        "name": "Túi giấy PBP-PB-000041",
+        "provider": "PIT",
+        "view": "3000",
+        "like": "300",
+        "price": "300",
+        "unit": "Túi"
+    }
+]

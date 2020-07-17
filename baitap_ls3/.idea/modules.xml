@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/baitap_ls3.iml" filepath="$PROJECT_DIR$/.idea/baitap_ls3.iml" />
       <module fileurl="file://$USER_HOME$/Downloads/bootstrap-4.0.0/.idea/bootstrap-4.0.0.iml" filepath="$USER_HOME$/Downloads/bootstrap-4.0.0/.idea/bootstrap-4.0.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../javascripts/.idea/javascripts.iml" filepath="$PROJECT_DIR$/../javascripts/.idea/javascripts.iml" />
     </modules>
   </component>
 </project>

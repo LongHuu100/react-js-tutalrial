@@ -1,0 +1,3 @@
+Cho một mảng tĩnh như sau: var arr = [90,90,20,27,35,22,10,8,8]
+a) Chèn thêm giá trị 100 vào phần tử thứ 2 trong mảng arr, lúc này kích thước mảng tăng lên 1 và mảng output sẽ là: var newarr = [90,90,100,20,27,35,22,10,8,8]
+b) Xóa các phần tử bị trùng nhau trong mảng, mảng mới sẽ là mảng chứa các phẩn tử duy nhất.

@@ -1,0 +1,3 @@
+Giả sử chúng ta lấy dữ liệu từ server trả về client có dạng mảng như trong file "data_simple.json" và yêu cầu hiển thị dữ liệu trong mảng này theo file thiết kế có tên: "cau_truc_data.jpg".
+
+Viết một chương trình javascript để đẩy dữ liệu như trong file json ra hiển thị trang web.
