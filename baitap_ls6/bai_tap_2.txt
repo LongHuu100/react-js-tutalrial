@@ -1,0 +1,5 @@
+Trong thực tế khi dữ liệu được hiển thị trên web người ta sẽ hiển thị dữ liệu theo cấu trúc phân trang, mỗi trường thường có từ 10 đến 20 item. Cùng xem một ví dụ về phân trang như sau: https://www.js-tutorials.com/demos/jquery_bootstrap_pagination_example_demo/
+
+- Viết một ý tưởng dạng thuật toán (Lưu đồ thuật toán) để trình bày cấu trúc phân trang như trong link website trên.
+
+- Thực hiện bài toán phân trang trên bằng ý tưởng trên (có thể bằng jqury hoặc js thuần) để thực hiện việc phân trang.

@@ -1,0 +1,5 @@
+- Tạo một đối tượng nhân viên (NhanVien) có 2 thuộc tính như sau: tên nhân viên, tuổi, mức lương.
+
+- Tạo một mảng chứa 30 đối tượng nhân viện trên.
+
+- Viết một chương trình bằng js thuần hoặc jquery để đổ tất cả các nhân viên trong mảng ra cấu trúc table của html.
