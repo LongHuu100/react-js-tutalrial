@@ -1,0 +1,3 @@
+Các website thường có các banner chạy từ trái qua phải hoặc ngược lại. Các kỹ thuật đó được mô tả bởi các thư viện như slick, carousel trong jquery.
+
+- Mô tả lại thuật toán của kỹ thuật làm các banner chạy dược như link: https://printgo.vn/
