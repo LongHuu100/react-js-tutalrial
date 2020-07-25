@@ -1,5 +1,8 @@
-// https://www.js-tutorials.com/jquery-tutorials/simple-example-pagination-using-jquery-bootstrap/
-
+/*
+* Các e cần bổ sung thêm chức năng.
+* - Nếu lớn hơn 10 page sẽ hiển thị theo cấu trúc: [5 page đầu] .... [1 page cuối].
+* - Nếu page hiện tại lớn hơn 10 sẽ hiển thị theo cấu trúc: [page từ 10 - 3 đến 10] [page từ 10 đến 10 + 2]. VD page(7,8,9,10,11,12);
+* */
 function Pagination(number) {
     this.options = {
         activeClass: "active",
@@ -60,7 +63,6 @@ Pagination.prototype = {
         var endRec = (displayRecordsIndex) + this.recPerPage;
         this.displayRecords = this.records.slice(displayRecordsIndex, endRec);
         this.renderHtml();
-        this.renderPage();
     },
     buildListItems: function () {
         var listItems = [];

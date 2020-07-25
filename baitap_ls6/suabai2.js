@@ -1,4 +1,8 @@
-
+/*
+* Các e cần bổ sung thêm chức năng.
+* - Khi click vào các indicators bên dưới banner sẽ chạy đến banner cần click đó.
+* - Khi click vào 2 mũi tên bên phải và bên trái thì phải chuyển banner sang bên phải hoặc bên trái tương ứng
+* */
 function Carousel(interval) {
     const $container = $("#slidewindow");
     const $item = $(".item");
