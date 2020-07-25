@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Carousel</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <style>
+            * {margin: 0px; padding: 0px;}
+            #slide-box{
+                width:100%; border: solid; border-color: white;
+                display: inline-block; overflow: hidden;
+            }
+            #slidewindow{ float: left; width: 500%; margin: 0; position: relative; }
+            .imgs{ width: 20%; height: 400px; float: left; margin: 0 0 0 0; }
+        </style>
+    </head>
+    <body>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            </ol>
+            <div id="slide-box">
+                <div id="slidewindow">
+                    <div class="item">
+                        <img class="imgs" src="https://cdn.printgo.vn/uploads/banners/0/bd0ba9b963989f3f0bddedfcc777aa03.jpg">
+                    </div>
+                    <div class="item">
+                        <img class="imgs" src="https://cdn.printgo.vn/uploads/banners/0/d7f3dbd614e6690320afb1817988c82b.jpg">
+                    </div>
+                    <div class="item">
+                        <img class="imgs" src="https://cdn.printgo.vn/uploads/banners/0/61b5bb7819521e2c29ade2297d689f2b.png">
+                    </div>
+                    <div class="item">
+                        <img class="imgs" src="https://cdn.printgo.vn/uploads/banners/0/94f54e59dc0228ec797dcb04829d59d6.jpg">
+                    </div>
+                    <div class="item">
+                        <img class="imgs" src="https://cdn.printgo.vn/uploads/banners/0/a6be09cb55e9d29ab4ab96ef92b451dc.jpg">
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+        <!--script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script-->
+        <script type="text/javascript" src="suabai2.js"></script>
+    </body>
+</html>
