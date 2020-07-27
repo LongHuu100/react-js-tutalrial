@@ -47,7 +47,8 @@ function Pagination(number) {
             if ($this.hasClass("disabled") || $this.hasClass("active")) {
                 return false;
             }
-            _this.show(parseInt($this.data('page')));
+            if($this.data('page-type') !== "dot")
+                _this.show(parseInt($this.data('page')));
         });
     }
 }
@@ -61,8 +62,35 @@ Pagination.prototype = {
         this.page = page;
         var displayRecordsIndex = Math.max(page - 1, 0) * this.recPerPage;
         var endRec = (displayRecordsIndex) + this.recPerPage;
+        console.log("Tong records", this.records);
         this.displayRecords = this.records.slice(displayRecordsIndex, endRec);
+        console.log("Record hien thi cho page hien tai", this.displayRecords);
         this.renderHtml();
+    },
+    createPageLink: function (listItems) {
+        if(this.totalPages <= 10) {
+            for (var i = 0; i < this.totalPages; i++) {
+                listItems.push(this.buildItem(i + 1, i + 1, 'page'));
+            }
+            return listItems;
+        }
+        if(this.page < 6) {
+            for (var i = 0; i <=5; i++) {
+                listItems.push(this.buildItem(i + 1, i + 1, 'page'));
+            }
+            listItems.push(this.buildItem('...', this.totalPages - 1, 'dot'));
+            listItems.push(this.buildItem(this.totalPages, this.totalPages, 'page'));
+        } else {
+            for (var i = (this.page - 3); i < this.page; i++) {
+                listItems.push(this.buildItem(i + 1, i + 1, 'page'));
+            }
+            if(this.totalPages >= this.page + 1) {
+                listItems.push(this.buildItem(this.page + 1, this.page + 1, 'page'));
+            }
+            if(this.totalPages >= this.page + 2) {
+                listItems.push(this.buildItem(this.page + 2, this.page + 2, 'page'));
+            }
+        }
     },
     buildListItems: function () {
         var listItems = [];
@@ -74,9 +102,7 @@ Pagination.prototype = {
         listItems.push(this.buildItem('Prev', prev, 'prev'));
 
         // Page Link
-        for (var i = 0; i < this.totalPages; i++) {
-            listItems.push(this.buildItem(i + 1, i + 1, 'page'));
-        }
+        this.createPageLink(listItems);
 
         // Next Link
         var next = this.page < this.totalPages ? this.page + 1 : this.totalPages;
@@ -88,11 +114,12 @@ Pagination.prototype = {
     },
     buildItem: function (text, page, type = 'page') {
         var $itemContainer = $('<li></li>'),
-            $itemContent = $('<a></a>');
+            $itemContent = type !== "dot" ? $('<a></a>') : $('<span style="cursor: none"></span>');
         $itemContainer.data('page', page);
         $itemContainer.data('page-type', type);
         $itemContainer.attr("class", "page-item");
-        $itemContainer.append($itemContent.attr('href', "#").addClass("page-link").html(text));
+        var theA = $itemContent.attr('href', "#").addClass("page-link").html(text);
+        $itemContainer.append(theA);
         return $itemContainer;
     },
     renderPage: function () {
@@ -100,9 +127,11 @@ Pagination.prototype = {
         this.$listContainer.children().remove();
         if(_this.totalPages <= 1)
             return;
+
         this.buildListItems().map(item => {
             this.$listContainer.append(item);
         });
+
         this.$listContainer.children().each(function () {
             let $this = $(this),
                 pageType = $this.data('page-type');
@@ -148,5 +177,5 @@ Pagination.prototype.createRerord = (numbers) => {
 }
 
 (() => {
-    new Pagination(105).init();
+    new Pagination(110).init();
 })();
