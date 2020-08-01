@@ -53,6 +53,7 @@ console.log( lib.sum(2, 3) );  // 5
 console.log( lib.mult(2, 3) ); // 6
 
 // Dynamic Property Keys
+// Enhanced Object Literals in ES6
 // ES5 code
 var
     key1 = 'one',

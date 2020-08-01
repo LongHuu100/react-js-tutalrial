@@ -14,7 +14,7 @@ let s1 = new Student(101,'Sachin','Tendulkar')
 console.log(s1)
 //getter is called
 console.log(s1.fullName)
-
+/*
 // Static
 'use strict'
 class StaticMem {
@@ -84,3 +84,4 @@ class StringPrinter extends PrinterClass {
 }
 var obj = new StringPrinter()
 obj.doPrint()
+*/
