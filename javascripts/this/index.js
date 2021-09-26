@@ -1,5 +1,5 @@
 // This được gọi từ thằng nào thì nó chính bằng thằng đó
-/*
+
 let person = {
     name : 'Bob',
     sayName : function() {
@@ -31,6 +31,7 @@ let person = {
     }
 };
 person.sayName();
+
 // this được gọi trong setTimeout arrow function nên this là đối tượng chứa setTimeout, do đó this = person
 let person = {
     name : 'Bob',
@@ -56,6 +57,7 @@ let person = {
     }
 };
 person.sayName();
+
 */
 // Trường hợp muốn gọi this trong setTimeout function thì gán selt = this rồi gọi sau.
 let person = {
