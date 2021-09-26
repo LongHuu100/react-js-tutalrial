@@ -6,7 +6,7 @@
 - Default Parameters in ES6
 - Template Literals in ES6
 - Multi-line String in ES6
-- Enhanced Object Literals in ES6
+- Enhanced Object Literals in ES6 (Dynamic property)
 - Promises in ES6 (async/await && Generator function)
 - Classes in ES6
 - Modules in Es6
