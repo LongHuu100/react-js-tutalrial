@@ -12,3 +12,4 @@
 - Modules in Es6
 - Destructuring (Variables From Object Properties)
 - Object Initialization From Variables
+- ES2018 (ES9) Rest/Spread Properties
